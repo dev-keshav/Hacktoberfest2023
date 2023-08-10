@@ -1,0 +1,30 @@
+.plansCom{
+    /* background-color:violet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #888;
+    height: 4vw;
+}
+.plansCom .prices{
+    display: flex;
+    /* gap: 15vw; */
+    opacity: 0.7;
+    /* background-color: red; */
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.plansCom .prices h3{
+    display: inline-block;
+    width: 5vw;
+    /* background-color: green; */
+    /* align-self: center; */
+    text-align: center;
+
+}
+.plansCom .prices h3:last-child{
+    /* color: red; */
+    padding-right: 2vw;
+    width: 6vw;
+}

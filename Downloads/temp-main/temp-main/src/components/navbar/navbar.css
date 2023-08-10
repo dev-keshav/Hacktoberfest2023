@@ -1,0 +1,21 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F4D91;
+
+    padding: 1.5vw;
+    color: white;
+
+}
+.nav-part2{
+    display: flex;
+    gap:20px;
+}
+.nav-part2 h3{
+    text-transform: capitalize;
+}
+.logout:hover{
+    cursor: pointer;
+}
